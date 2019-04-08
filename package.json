@@ -36,7 +36,7 @@
     "chalk": "^2.1.0",
     "connect-history-api-fallback": "^1.3.0",
     "copy-webpack-plugin": "^4.0.1",
-    "css-loader": "^0.28.11",
+    "css-loader": "^1.0.0",
     "egg-born-localeutil": "^1.0.2",
     "egg-born-mparse": "^1.0.2",
     "eslint": "^4.19.0",
