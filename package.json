@@ -5,7 +5,9 @@
   "scripts": {
     "lint": "eslint src",
     "dev": "node build/dev-server.js",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -75,11 +77,13 @@
     "webpack-bundle-analyzer": "^2.11.1",
     "webpack-dev-middleware": "^3.1.0",
     "webpack-hot-middleware": "^2.21.2",
-    "webpack-merge": "^4.1.2"
+    "webpack-merge": "^4.1.2",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {},
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
-  }
+  },
+  "snyk": true
 }
