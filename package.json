@@ -1,7 +1,7 @@
 {
-  "name": "egg-born-front",
-  "version": "6.1.7",
-  "description": "egg-born-front",
+  "name": "egg-born-frontend",
+  "version": "1.0.1",
+  "description": "egg-born-frontend",
   "scripts": {
     "lint": "eslint src",
     "dev": "node build/dev-server.js",
